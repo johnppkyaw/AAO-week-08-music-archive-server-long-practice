@@ -67,6 +67,7 @@ const server = http.createServer((req, res) => {
 
     /* ========================== ROUTE HANDLERS ========================== */
 
+    const reqUrlParts = req.url.split('/');
     //Get all the artists
     // GET /artists
     if(req.method === "GET" && req.url === "/artists") {
@@ -94,7 +95,6 @@ const server = http.createServer((req, res) => {
       return res.end(JSON.stringify(artist));
     }
 
-    const reqUrlParts = req.url.split('/');
     // Add an artist
     // POST /artists
     if (req.method === "POST" && req.url === '/artists') {
