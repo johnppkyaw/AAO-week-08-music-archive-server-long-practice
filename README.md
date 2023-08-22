@@ -27,3 +27,6 @@ server that you used to help you create the API documentation.
 
 [starter]: https://github.com/appacademy/practice-for-week-08-music-archive-server-long-practice
 [API docs for a Music Archive practice]: https://github.com/appacademy/practice-for-week-08-music-archive-docs-long-practice
+
+This has been deployed on app.cyclic.sh:
+https://beautiful-wasp-visor.cyclic.cloud/
